@@ -1,0 +1,14 @@
+authentications\DigestAuthentication.class
+sedese\RestAssuredSerialization.class
+testdata\Person.class
+in\at\test\ValidateResponseHeaders.class
+testdata\POJO.class
+in\at\test\RestAssuredAPIGet.class
+authentications\BearerTokenAuthentication.class
+authentications\oAuth2Authentication.class
+authentications\BasicAuthentication.class
+in\at\test\ValidateResponseStatusCode.class
+in\at\test\ReadAndValidateJsonResponseBody.class
+testdata\User.class
+authentications\PreemptiveAuthentication.class
+authentications\APIKeyAuthentication.class
