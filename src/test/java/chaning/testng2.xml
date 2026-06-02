@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="chaning.CreateUser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="chaning.GetUser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      <class name="chaning.UpdateUser"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="chaning.DeleteUser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

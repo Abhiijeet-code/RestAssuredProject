@@ -23,7 +23,7 @@ public class RestAssuredAPIPost {
 		String jsonRequestBody = "{\"title\": \"Laptop\", \"price\": \"200\", \"description\": \"14'' Laptop\", \"category\": \"Electronics\"}";
 		
 		//way1
-	/*	RestAssured.baseURI ="https://fakestoreapi.com/products";
+		RestAssured.baseURI ="https://fakestoreapi.com/products";
 		RequestSpecification requestSpec = RestAssured.given();
 		requestSpec.contentType(ContentType.JSON);
 		requestSpec.body(jsonRequestBody);
@@ -31,7 +31,7 @@ public class RestAssuredAPIPost {
 		Response response = requestSpec.post();
 		
 		System.out.println(response.getBody().asPrettyString());
-	*/
+	
 		
 		//way2
 		given()
@@ -46,7 +46,7 @@ public class RestAssuredAPIPost {
 	@Test
 	public void addProductUsingMap()
 	{
-		Map<String, String> jsonBody = new HashMap();
+		Map<String, String> jsonBody = new HashMap<>();
 		jsonBody.put("title", "Laptop");
 		jsonBody.put("price", "200");
 		jsonBody.put("description", "14 inch Laptop");
